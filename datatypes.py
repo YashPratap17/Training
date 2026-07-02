@@ -30,11 +30,25 @@
 
 #Float
 
-print(float(5))
-print(float(516.21))
-# print(float("Yash")) 
-# print(float(5+5j))
-print(float(True))
-print(float(False))
+# print(float(5))
+# print(float(516.21))
+# # print(float("Yash")) 
+# # print(float(5+5j))
+# print(float(True))
+# print(float(False))
 
+# print(bool(0.0))
+
+
+# Bool
+
+print(bool(0))
+print(bool("False"))
 print(bool(0.0))
+print(bool(0+0j))
+print(bool(5))
+print(bool("True"))
+print(bool(5.5))
+print(bool(5+5j))
+print(bool(5+5j))
+print(bool("Hi"))

@@ -29,4 +29,5 @@ print(list1)
 list1.insert(5,10)
 list1.remove(10) # Takes Value
 list1.pop()
+list1.clear()
 print(list1)

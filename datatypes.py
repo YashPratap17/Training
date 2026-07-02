@@ -36,3 +36,5 @@ print(float(516.21))
 # print(float(5+5j))
 print(float(True))
 print(float(False))
+
+print(bool(0.0))

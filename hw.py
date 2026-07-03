@@ -50,10 +50,41 @@ t1 = (1, 2, 3)
 print(type(t1))
 print(t1[1])
 
-d1 = {"name": "Yash", "age": 20}
+# d1 = {"name": "Yash", "age": 20}
+
+d1 = {"a": 1, "b": 2, "c": 3}
 print(type(d1))
 print(d1.keys())
 print(d1.values())
+d1.clear()
+print(d1)
+d2 = {"x": 10, "y": 20}
+d3 = d2.copy()
+print(d3)
+keys = ["name", "age", "city"]
+d4 = dict.fromkeys(keys, "unknown")
+print(d4)
+d5 = {"name": "Alice", "age": 25}
+print(d5.get("name"))
+print(d5.get("salary", 0))
+print(list(d5.items()))
+print(list(d5.keys()))
+print(list(d5.values()))
+age = d5.pop("age")
+print(age)
+print(d5)
+d6 = {"a": 1, "b": 2, "c": 3}
+item = d6.popitem()
+print(item)
+print(d6)
+d7 = {"name": "Bob"}
+d7.setdefault("age", 30)
+d7.setdefault("name", "Robert")
+print(d7)
+d8 = {"a": 1, "b": 2}
+d8.update({"b": 3, "c": 4})
+print(d8)
+
 
 set1 = {1, 2, 3, 3, 4}
 print(type(set1))

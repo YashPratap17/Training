@@ -31,3 +31,9 @@ list1.remove(10) # Takes Value
 list1.pop()
 list1.clear()
 print(list1)
+
+l1=[10,20,30,40]
+l2 = l1.copy()
+print(l2)
+
+

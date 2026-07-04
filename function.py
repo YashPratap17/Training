@@ -118,3 +118,28 @@
 # info(name='Yash',age = 22)
 # info(name='Vineet',age = 27)
 
+# def square(num):
+#     # return num*num
+#     print(num*num)
+
+# print(square(5))
+
+# def nums(a):
+#     if a%2 == 0:
+#         return print("The Number is even")
+#     else:
+#         return print("Odd")
+    
+# num = int(input("ENter a number: "))
+# print(nums(num))
+
+def cal(a,b):
+    add = a+b
+    sub = a-b
+    mul = a*b
+
+    return add,sub,mul
+x,y,z = cal(20,10)
+print(x)
+print(y)
+print(z)

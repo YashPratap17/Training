@@ -119,8 +119,32 @@
 
 
 
-alp = input("Enter the alphabet: ").lower()
-if alp in 'aeiou':
-    print(alp+ " is a vovel")
+# alp = input("Enter the alphabet: ").lower()
+# if alp in 'aeiou':
+#     print(alp+ " is a vovel")
+# else:
+#     print(alp + ' is a Consonent')
+
+a = float(input("Enter the first number: "))
+b = float(input("Enter the Second number: "))
+print("Welcome to the calculator")
+print("Select + for Addition")
+print("Select - for Substraction")
+print("Select * for Multiplication")
+print("Select / for Division")
+sym = input("Enter the Symbol: ")
+if sym == '+':
+    print(a+b)
+elif sym == '-':
+    print(a-b)
+elif sym == '*':
+    print(a*b)
+elif sym == '/':
+    if b == 0:
+        print("Division by Zero not allowed!!")
+    if b != 0:
+        print(a/b)
+
 else:
-    print(alp + ' is a Consonent')
+    print("Invalid Symbol")
+

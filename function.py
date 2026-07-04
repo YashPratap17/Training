@@ -124,6 +124,8 @@
 
 # print(square(5))
 
+
+
 # def nums(a):
 #     if a%2 == 0:
 #         return print("The Number is even")
@@ -133,13 +135,48 @@
 # num = int(input("ENter a number: "))
 # print(nums(num))
 
-def cal(a,b):
-    add = a+b
-    sub = a-b
-    mul = a*b
 
-    return add,sub,mul
-x,y,z = cal(20,10)
-print(x)
-print(y)
-print(z)
+
+# def cal(a,b):
+#     add = a+b
+#     sub = a-b
+#     mul = a*b
+
+#     return add,sub,mul
+# x,y,z = cal(20,10)
+# print(x)
+# print(y)
+# print(z)
+
+
+# Local and Global Variable
+
+# def demo():
+#     x = 1000
+#     print(x)
+
+# demo()
+
+# c = 0
+# def increment():
+#     global c
+#     c+=1
+# increment()
+# print(c)
+
+
+def fact(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * fact(n-1)
+
+print(fact(5))
+
+# def count(n):
+#     if n == 0:
+#         return 
+#     print(n)
+#     count(n-1)
+
+# count(5)

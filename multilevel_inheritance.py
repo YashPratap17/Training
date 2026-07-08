@@ -106,14 +106,52 @@
 # p.eat()
 # p.sleep()
 
-class Grandfather:
-    land = 20
-class Father(Grandfather):
-    house = 2
-class Son(Father):
-    bike = "RE Bullet"
+# class Grandfather:
+#     land = 20
+# class Father(Grandfather):
+#     house = 2
+# class Son(Father):
+#     bike = "RE Bullet"
 
-s = Son()
-print(s.land)
-print(s.house)
-print(s.bike)
+# s = Son()
+# print(s.land)
+# print(s.house)
+# print(s.bike)
+
+# class Uni:
+#     affiliation = 10
+# class College(Uni):
+#     schools = 5
+# class School(College):
+#     students = 1000
+
+# s = School()
+# print(s.affiliation)
+# print(s.schools)
+# print(s.students)
+
+
+# class A:
+#     def __init__(self):
+#         print("Constructor of A")
+# class B(A):
+#     pass
+# class C(B):
+#     pass
+# c = C()
+
+# class A:
+#     def __init__(self):
+#         print("Constructor of A")
+# class B(A):
+#     def __init__(self):
+#         super().__init__()
+#         print("Constructor of B")
+# class C(B):
+#     def __init__(self):
+#         super().__init__()
+#         print("Constructor of C")
+
+# obj = C()
+
+# Look the output is coming from the top to bottom 

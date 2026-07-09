@@ -77,4 +77,4 @@ class Student:
 
 obj = Student()
 print(obj._Student__name)
-print(obj.__name) # will throw an error
+print(obj.__name) # will throw an errorko

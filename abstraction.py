@@ -37,3 +37,5 @@ class Bike(Vehicle):
 obj = Bike()
 obj.start()
 obj.stop()
+
+# Class of Abstract class is not made, it is made using abstract class
